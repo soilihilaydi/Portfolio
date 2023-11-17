@@ -7,8 +7,8 @@ import "./navbar.scss"
       <div className="wrapper">
         <span>Laydi Soilihi</span>
         <div className="social">
-          <a href="https://github.com/soilihilaydi"><img src="/github.png" alt=""/></a>
-          <a href="#"><img src="/Linkedin.png" alt=""/></a>
+          <a href="https://github.com/soilihilaydi"><img src="/github.png" alt="lien vers github"/></a>
+          <a href="#"><img src="/Linkedin.png" alt="lien vers linkedin"/></a>
         </div>
       </div>
     </div>
