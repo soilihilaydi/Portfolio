@@ -1,10 +1,13 @@
 import "./app.scss"
+import Navbar from "./components/navbar/Navbar";
 
 
 
 const App = () => {
   return <div>
-    <section><a href="">Hello</a></section>
+    <section>
+       <Navbar/>
+    </section>
     <section>Parallax</section>
     <section>A propos</section>
     <section>Parallax</section>
