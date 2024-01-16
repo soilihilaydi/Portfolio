@@ -12,7 +12,7 @@ import { motion } from "framer-motion";
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}>
-          Laydi Soilihi
+          The weboflady 
         </motion.span>
         <div className="social">
           <a href="https://github.com/soilihilaydi"><img src="/github.png" alt="lien vers github"/></a>
