@@ -31,7 +31,7 @@ const sliderVariants = {
     x: 0,
   },
   animate: {
-    x: "-220%",
+    x: "-850%",
     transition: {
       repeat: Infinity,
       repeatType:"mirror",
