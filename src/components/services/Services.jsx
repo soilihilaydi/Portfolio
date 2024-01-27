@@ -43,7 +43,7 @@ const Services = () => {
     </motion.div>
     <motion.div className="titleContainer" variants={variants}>
       <div className="title">
-        <img src="/Jujutsu.jpg" alt="" />
+        <img src="/Jujutsu.png" alt="" />
         <h1><motion.b whileHover={{color:"orange"}}>Pour </motion.b>de vrai</h1>
       </div>
       <div className="title">
