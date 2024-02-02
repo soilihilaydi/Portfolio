@@ -6,7 +6,7 @@ const items = [
   {
     id:1,
     title:"react project",
-    img:"https://images.pexels.com/photos/17758679/pexels-photo-17758679/free-photo-of-lumineux-noir-et-blanc-ville-homme.jpeg?auto=compress&cs=tinysrgb&w=1200&lazy=load",
+    img:"/phone.jpeg",
     desc:"Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
   },
   {
@@ -45,7 +45,9 @@ const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
      <div className="container">
      <div className="wrapper">
         
-        <img src={item.img} alt="" />
+         <div className="imageContainer" ref={ref}>
+            <img src={item.img} alt="" />
+          </div>
         <motion.div className="textContainer" style={{y}}>
           <h2>{item.title}</h2>
           <p>{item.desc}</p>
