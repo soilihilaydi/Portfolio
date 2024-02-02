@@ -37,52 +37,51 @@ const Services = () => {
 
     <motion.div className="textContainer" variants={variants}>
       <p>Amoureux de l’esthétique et de la communication,<br/>
-      je souhaite développer et renforcer mes compétence pour travailler 
-      sur la création de sites.</p>
+      je souhaite développer et renforcer mes compétence dans la création de sites.</p>
       <hr/>
     </motion.div>
     <motion.div className="titleContainer" variants={variants}>
       <div className="title">
         <img src="/Jujutsu.png" alt="" />
-        <h1><motion.b whileHover={{color:"orange"}}>Pour </motion.b>de vrai</h1>
+        <h1><motion.b whileHover={{color:"orange"}}>Voici </motion.b>Mes</h1>
       </div>
       <div className="title">
-        <h1><motion.b whileHover={{color:"orange"}}>Pour </motion.b>Ton business.</h1>
-        <button>On fait quoi?</button>
+        <h1><motion.b whileHover={{color:"orange"}}>Modestes</motion.b> Competences.</h1>
+        
       </div>
     </motion.div>
     <motion.div className="listContainer" variants={variants}>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-        <h2>Texte</h2>
+        <h2>Integration web</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?</p>
-            <button>Va sy Go</button>
+            
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-        <h2>Texte</h2>
+        <h2>Front-end</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?</p>
-            <button>Va sy Go</button>
+            
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-        <h2>Texte</h2>
+        <h2>Back-end</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?</p>
-            <button>Va sy Go</button>
+            
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
-        <h2>Texte</h2>
+        <h2>environnement de developpement</h2>
         <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
             libero enim nisi aliquam consectetur expedita magni eius ex corrupti
             animi! Ad nam pariatur assumenda quae mollitia libero repellat
             explicabo maiores?</p>
-            <button>Va sy Go</button>
+            
       </motion.div>
     </motion.div>
   </motion.div>
