@@ -53,34 +53,28 @@ const Services = () => {
     <motion.div className="listContainer" variants={variants}>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>Integration web</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?</p>
+        <p>HTML5, CSS3, Bootstrap, SCSS (SASS)</p>
             
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>Front-end</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?</p>
+        <p> React.js</p>
             
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>Back-end</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?</p>
+        <p> Node.js, Javascript (Orienté Objet, 
+                    MVC, API Rest) PostgreSQL, MySQL, 
+                    Sequelize, NoSql(MongoDB)
+</p>
             
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>environnement de developpement</h2>
-        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-            libero enim nisi aliquam consectetur expedita magni eius ex corrupti
-            animi! Ad nam pariatur assumenda quae mollitia libero repellat
-            explicabo maiores?</p>
+        <p> Versioning avec Git(Github),Rédaction
+                     D’un cahier des charges, wireframes et 
+                     User stories
+</p>
             
       </motion.div>
     </motion.div>
