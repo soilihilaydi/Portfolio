@@ -71,9 +71,8 @@ const Services = () => {
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>environnement de developpement</h2>
-        <p> Versioning avec Git(Github),Rédaction
-                     D’un cahier des charges, wireframes et 
-                     User stories
+        <p> Versioning avec Git(Github)
+                     
 </p>
             
       </motion.div>
