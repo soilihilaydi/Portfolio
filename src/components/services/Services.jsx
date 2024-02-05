@@ -54,12 +54,12 @@ const Services = () => {
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>Integration web</h2>
         <p>HTML5, CSS3, Bootstrap, SCSS (SASS)</p>
-            
+        <button>Go</button>      
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>Front-end</h2>
         <p> React.js</p>
-            
+        <button>Go</button>      
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>Back-end</h2>
@@ -67,14 +67,14 @@ const Services = () => {
                     MVC, API Rest) PostgreSQL, MySQL, 
                     Sequelize, NoSql(MongoDB)
 </p>
-            
+      <button>Go</button>      
       </motion.div>
       <motion.div className="box" whileHover={{ background: "lightgray", color: "black" }}>
         <h2>environnement de developpement</h2>
         <p> Versioning avec Git(Github)
-                     
+        <button>Go</button>                 
 </p>
-            
+     <button>Go</button>       
       </motion.div>
     </motion.div>
   </motion.div>
