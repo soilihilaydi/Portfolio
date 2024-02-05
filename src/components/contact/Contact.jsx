@@ -32,12 +32,17 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_h85u2bu', 'template_hzkwjvs', formRef.current, 'z4OoItmRYLl-FsUp6')
-      .then((result) => {
+    
+    .then(
+        () => {
           setSuccess(true)
-      }, (error) => {
+      }, 
+      
+      () => {
         setError(true)
-      });
-  };
+      }
+    );
+};
 
   return (
     <motion.div
@@ -48,7 +53,7 @@ const Contact = () => {
       whileInView="animate"
     >
       <motion.div className="textContainer" variants={variants}>
-        <motion.h1 variants={variants}>toujours chaud pour taffer</motion.h1>
+        <motion.h1 variants={variants}>toujours pret pour un</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Mail</h2>
           <span>soilihi.laydi.pro@gmail.com</span>
@@ -104,7 +109,7 @@ const Contact = () => {
           <input type="text" required placeholder="Name" name="name" />
           <input type="email" required placeholder="Email" name="email" />
           <textarea rows={8} placeholder="Message" name="message" />
-          <button>Va s'y envoye</button>
+          <button> envoyez </button>
           {error && "Error"}
           {success && "Success"}
         </motion.form>
